@@ -62,7 +62,7 @@
     
      
 #### 四、python3操作集群库
-##### pip install rediscluster
+##### pip install rediscluster -i https://pypi.mirrors.ustc.edu.cn/simple/ 
     
     from rediscluster import StrictRedisCluster
     startup_nodes = [
@@ -80,5 +80,5 @@
     print ("age  is: ", rc.get('age'))
     
 ##### 注:python连接redis数据,建议使用 redis.StrictRedis,StrictRedisCluster
-    redis.Redis 好像有点问题
+    redis.Redis 
     redis.StrictRedis
