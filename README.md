@@ -1,4 +1,4 @@
-###### 注: 系统是centos7,转载自
+###### 注: 系统是centos7,参考文章
 ###### https://blog.csdn.net/qq_36514588/article/details/83856795
 ##### https://www.cnblogs.com/small-bud/p/9160679.html
 ##### https://blog.csdn.net/xiyujianxia/article/details/80679187
