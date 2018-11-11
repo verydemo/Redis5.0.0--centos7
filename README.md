@@ -4,7 +4,8 @@
 ##### https://blog.csdn.net/xiyujianxia/article/details/80679187
 
 #### redis集群
-![avatar](redis1.png)
+<!-- ![avatar](redis1.png =700x440) -->
+<img src="redis1.png" width="700" hegiht="440" align=center />
 
 #### 一.redis的安装
 #####   编译安装redis
