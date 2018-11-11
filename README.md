@@ -5,11 +5,11 @@
 
 #### 一.redis的安装
 #####   编译安装redis
-    操作|说明
-    -|-
-    tar -zxvf redis-5.0.0.tar.gz|官网下载并解压 http://www.redis.cn/download.html
-    yum install gcc -y |安装gcc编译器
-    make && make install|进入redis-5.0.0编译安装
+    |操作|说明|
+    |-|-|
+    |tar -zxvf redis-5.0.0.tar.gz|官网下载并解压 http://www.redis.cn/download.html|
+    |yum install gcc -y |安装gcc编译器|
+    |make && make install|进入redis-5.0.0编译安装|
     
 #### 二.创建节点
 #####     1.建6个节点测试,将配置文件拷贝到各个文件夹下
