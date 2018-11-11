@@ -27,6 +27,7 @@
     # cp redis-5.0.0/redis.conf cluster/7006/
     
 #####     2.分别修改配置文件(启动时使用)并启用各redis
+
     修改记录|说明
     -|-
     dir /root/cluster/7001/|生成的数据库文件位置
