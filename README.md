@@ -5,11 +5,11 @@
 
 #### 一.redis的安装
 #####   编译安装redis
-    |操作|说明|
-    |-|-|
-    |tar -zxvf redis-5.0.0.tar.gz|官网下载并解压 http://www.redis.cn/download.html|
-    |yum install gcc -y |安装gcc编译器|
-    |make && make install|进入redis-5.0.0编译安装|
+| 操作 | 说明 |
+| :------ | :------ |
+| tar -zxvf redis-5.0.0.tar.gz | 官网下载并解压 http://www.redis.cn/download.html |
+| yum install gcc -y | 安装gcc编译器 |
+| make && make install | 进入redis-5.0.0编译安装 |
     
 #### 二.创建节点
 #####     1.建6个节点测试,将配置文件拷贝到各个文件夹下
@@ -28,16 +28,16 @@
     
 #####     2.分别修改配置文件(启动时使用)并启用各redis
 
-    修改记录|说明
-    -|-
-    dir /root/cluster/7001/|生成的数据库文件位置
-    daemonize    yes|redis后台运行
-    pidfile  /var/run/redis_7001.pid | pidfile文件对应7001,7002...7006
-    port  7001|端口7001,7002...7006
-    cluster-enabled  yes|开启集群  把注释#去掉
-    cluster-config-file  nodes_7001.conf|集群的配置  配置文件首次启动自动生成 7001,7002...7006
-    cluster-node-timeout  5000|请求超时
-    appendonly  yes|aof日志开启  有需要就开启，它会每次写操作都记录一条日志
+|修改记录 | 说明|
+|:----- | :------ |
+|dir /root/cluster/7001/|生成的数据库文件位置|
+|daemonize    yes|redis后台运行
+|pidfile  /var/run/redis_7001.pid | pidfile文件对应7001,7002...7006
+|port  7001|端口7001,7002...7006
+|cluster-enabled  yes|开启集群  把注释#去掉
+|cluster-config-file  nodes_7001.conf|集群的配置  配置文件首次启动自动生成 7001,7002...7006
+|cluster-node-timeout  5000|请求超时
+|appendonly  yes|aof日志开启  有需要就开启，它会每次写操作都记录一条日志
 
 #####     3.启动redis
     redis-server cluster/7001/redis.conf
