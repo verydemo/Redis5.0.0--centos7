@@ -3,6 +3,9 @@
 ##### https://www.cnblogs.com/small-bud/p/9160679.html
 ##### https://blog.csdn.net/xiyujianxia/article/details/80679187
 
+#### redis集群
+![avatar](redis1.png)
+
 #### 一.redis的安装
 #####   编译安装redis
 | 操作 | 说明 |
@@ -83,3 +86,4 @@
 ##### 注:python连接redis数据,建议使用 redis.StrictRedis,StrictRedisCluster
     redis.Redis 
     redis.StrictRedis
+
